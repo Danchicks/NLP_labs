@@ -149,7 +149,7 @@ def main():
         df = pd.read_csv(RAW_DATA_PATH)
         print(f"Завантажено рядків: {len(df)}")
     except FileNotFoundError:
-        print(f"❌ Файл {RAW_DATA_PATH} не знайдено")
+        print(f"Файл {RAW_DATA_PATH} не знайдено")
         return
 
     print_pipeline_stats(df)
