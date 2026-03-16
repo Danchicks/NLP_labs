@@ -1,0 +1,16 @@
+{
+    "seed": 1,
+    "strategy": "GroupShuffleSplit",
+    "group_column": "premise_v2",
+    "split_ratios_target": {
+        "train": 0.8,
+        "val": 0.1,
+        "test": 0.1
+    },
+    "sizes_actual": {
+        "train": 1599,
+        "val": 201,
+        "test": 200
+    },
+    "generated_at": "2026-03-16 18:33:32"
+}

@@ -13,7 +13,7 @@ NUMBER_WORDS = {
 
 def load_dictionary(filepath):
     if not os.path.exists(filepath):
-        print(f"❌ ПОМИЛКА: Файл словника не знайдено -> {filepath}") # <--- ДОДАЙ ЦЕ
+        print(f"❌ ПОМИЛКА: Файл словника не знайдено -> {filepath}") 
         return []
     with open(filepath, 'r', encoding='utf-8') as f:
         return [line.strip().lower() for line in f if line.strip()]
